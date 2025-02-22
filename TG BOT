@@ -6,7 +6,7 @@ import os
 # Bot Functionality:
 # 1. Sends a text message with a video link when the /start command is received.
 # 2. Saves the username of the person who sent /start (with @) to a file, avoiding duplicates.
-# 3. Automatically approves join requests to a private Telegram channel.
+# 3. Automatically approves join requests to a private Telegram channel. The bot must be an administrator in the channel
 
 # Enable logging for debugging
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
